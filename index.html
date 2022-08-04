@@ -14,6 +14,24 @@
     <script src="https://kit.fontawesome.com/e7568dbd3a.js" crossorigin="anonymous"></script>
 </head>
 
+<style>
+    /* The section is only visible to displays that have a horizontal area of >/ 992px*/
+    @media screen and (min-width:0px) and (max-width:992px) {
+        #invisible-md {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width:0px) and (max-width:688px) {
+        #reverse-sm {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+    }
+</style>
+
 <body>
     <header>
         <!--Navigation bar-->
@@ -126,8 +144,8 @@
                 </div>
                 <!--Group Card for Courses-->
                 <div class="container">
-                    <div class=" row row-cols-2 g-4">
-                        <div class="container col g-4">
+                    <div class="row row-cols-2 g-4" id="reversed-sm">
+                        <div class="container col-lg-6 col-md-12 col-12 g-4">
                             <div class="card">
                                 <div class="card-body d-flex">
                                     <img src="images/course/course-1.png" class="card-img gx-2 mx-3" alt="...">
@@ -145,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col g-4">
+                        <div class="container col-lg-6 col-md-12 col-12 g-4">
                             <div class="card">
                                 <div class="card-body d-flex">
                                     <img src="images/course/course-2.png" class="card-img gx-2 mx-3" alt="...">
@@ -163,7 +181,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col g-4">
+                        <div class="container col-lg-6 col-md-12 col-12 g-4">
                             <div class="card">
                                 <div class="card-body d-flex">
                                     <img src="images/course/course-3.png" class="card-img gx-2 mx-3" alt="...">
@@ -181,7 +199,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col g-4">
+                        <div class="container col-lg-6 col-md-12 col-12 g-4">
                             <div class="card">
                                 <div class="card-body d-flex">
                                     <img src="images/course/course-4.png" class="card-img gx-2 mx-3" alt="...">
@@ -198,7 +216,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col g-4">
+                        <div class="container col-lg-6 col-md-12 col-12 g-4">
                             <div class="card">
                                 <div class="card-body d-flex">
                                     <img src="images/course/course-5.png" class="card-img gx-2 mx-3" alt="...">
@@ -215,7 +233,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col g-4">
+                        <div class="container col-lg-6 col-md-12 col-12 g-4">
                             <div class="card">
                                 <div class="card-body d-flex">
                                     <img src="images/course/course-6.png" class="card-img gx-2 mx-3" alt="...">
@@ -353,7 +371,7 @@
         </section>
         <section>
             <!-- Portfolio Start -->
-            <div class="trusted-company my-5">
+            <div id="invisible-md" class="trusted-company my-5">
                 <div class="text-center">
                     <h2 class="fw-bold m-4 p-4">Trusted by over 800+ companies</h2>
                 </div>
