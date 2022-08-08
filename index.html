@@ -14,14 +14,14 @@
     <script src="https://kit.fontawesome.com/e7568dbd3a.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container-fluid justify-content-around">
+<body class="container-fluid">
     <header>
         <!--Navigation bar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white pb-5">
-            <div class="container-fluid m-4">
-                <div class="d-inline-flex">
+            <div class="container-fluid mt-4 mb-2">
+                <div class="d-flex text-center px-2">
                     <!--Logo-->
-                    <a class="navbar-brand mt-2" href="#">
+                    <a class="navbar-brand mx-2" href="#">
                         <img src="images/icons/bc-icon.png" alt="" width="24" height="24">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,32 +29,32 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <h4 class="text-dark mt-2">British Council</h4>
+                    <h4 class="text-dark m-2">British Council</h4>
                 </div>
                 <!-- Nav Buttons-->
                 <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
                     <ul class="navbar-nav text-center">
-                        <li class="nav-item mx-5">
+                        <li class="nav-item mx-3 px-2">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item mx-5">
+                        <li class="nav-item mx-3 px-2">
                             <a class="nav-link text-muted" href="index.html">Courses</a>
                         </li>
-                        <li class="nav-item mx-5">
+                        <li class="nav-item mx-3 px-2">
                             <a class="nav-link text-muted" href="index.html">Deals</a>
                         </li>
-                        <li class="nav-item mx-5">
+                        <li class="nav-item mx-3 px-2">
                             <a class="nav-link text-muted" href="index.html">Success</a>
                         </li>
-                        <li class="nav-item  mx-5">
+                        <li class="nav-item mx-3 px-2">
                             <a class="nav-link text-muted" href="index.html">Demos</a>
                         </li>
-                        <li class="nav-item mx-5">
+                        <li class="nav-item mx-3 px-2">
                             <a class="nav-link text-muted" href="index.html">About</a>
                         </li>
                     </ul>
                 </div>
-                <form class="m-2" role="button">
+                <form class="px-2" role="button">
                     <button class="btn btn-light text-info rounded-1 border-info" type="submit">Register</button>
                 </form>
             </div>
@@ -248,13 +248,15 @@
         </section>
         <section class="container-fluid mb-2 p-2">
             <!-- Registration-Modal-->
-            <div class="card bg-info d-flex flex-row-reverse justify-content-around py-5 m-5">
-                <div class="align-content-center m-5 py-5">
-                    <button type="button" class="text-bg-light text-primary mt-4 btn btn-primary bg-light px-4"
+            <div
+                class="card bg-info d-flex flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse flex-md-column-reverse flex-sm-column-reverse flex-column-reverse mx-5">
+                <div class="justify-content-around align-content-center text-center p-4 mt-5">
+                    <button type="button"
+                        class="text-bg-light text-primary text-nowrap btn btn-primary bg-light px-4 py-3 m-5"
                         data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        Register Now
+                        <h4>Register Now</h4>
                     </button>
-                    <div class="modal fade mt-5 p-5" id="staticBackdrop" data-bs-backdrop="static"
+                    <div class="modal fade m-5 p-5" id="staticBackdrop" data-bs-backdrop="static"
                         data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -275,9 +277,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 text-white justify-content-between">
-                    <h2 class="pt-5 mt-4">Ready to join?</h2>
-                    <p class="py-2">
+                <div
+                    class="m-5 text-white text-xl-start text-lg-start text-xxl-start text-md-center text-sm-center text-center justify-content-evenly">
+                    <strong>
+                        <h1 class="mt-5 px-5">Ready to join?</h1>
+                    </strong>
+                    <p class="pb-3 px-5">
                         It is a long established fact that a reader will be distracted by the readable content of a
                         page when looking at its layout.
                     </p>
@@ -286,12 +291,12 @@
         </section>
         <section>
             <!-- FAQ start -->
-            <div class="container-fluid w-75 my-2 px-4">
-                <div class="text-center pt-3 p-2">
+            <div class="container-fluid w-75 my-5">
+                <div class="text-center pt-3 px-2">
                     <h2>Frequently Asked Questions</h2>
                     <p>Here're the top questions from the past year..</p>
                 </div>
-                <div class="accordion" id="accordionExample">
+                <div class="accordion mx-xxl-5 mx-lg-5 mx-xl-5" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button btn-custom" type="button" data-bs-toggle="collapse"
