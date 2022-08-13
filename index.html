@@ -17,48 +17,48 @@
 <body class="container-fluid">
     <header>
         <!--Navigation bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white pb-5">
-            <div class="container-fluid d-flex mt-4 mb-2">
-                <div class="d-flex text-center">
-                    <!--Logo-->
-                    <a class="navbar-brand" href="#">
-                        <img src="images/icons/bc-icon.png" alt="" width="24" height="24">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <h4 class="text-dark m-2">British Council</h4>
-                </div>
+        <div class="container-fluid d-flex justify-content-around pt-3">
+            <div class="d-flex">
+                <!--Logo-->
+                <a class="navbar-brand" href="#">
+                    <img src="images/icons/bc-icon.png" alt="" width="24" height="24">
+                </a>
+                <h4 class="text-dark m-2">British Council</h4>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white pb-5  justify-content-evenly">
+                <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <!-- Nav Buttons-->
-                <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav text-center">
-                        <li class="nav-item mx-3 px-2">
+                        <li class="nav-item mx-3 px-3">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item mx-3 px-2">
+                        <li class="nav-item mx-3 px-3">
                             <a class="nav-link text-muted" href="index.html">Courses</a>
                         </li>
-                        <li class="nav-item mx-3 px-2">
+                        <li class="nav-item mx-3 px-3">
                             <a class="nav-link text-muted" href="index.html">Deals</a>
                         </li>
-                        <li class="nav-item mx-3 px-2">
+                        <li class="nav-item mx-3 px-3">
                             <a class="nav-link text-muted" href="index.html">Success</a>
                         </li>
-                        <li class="nav-item mx-3 px-2">
+                        <li class="nav-item mx-3 px-3">
                             <a class="nav-link text-muted" href="index.html">Demos</a>
                         </li>
-                        <li class="nav-item mx-3 px-2">
+                        <li class="nav-item mx-3 px-3">
                             <a class="nav-link text-muted" href="index.html">About</a>
                         </li>
                     </ul>
                 </div>
-                <form class="px-2" role="button">
-                    <button class="btn btn-light text-info rounded-1 border-info" type="submit">Register</button>
-                </form>
-            </div>
-        </nav>
+            </nav>
+            <form class="p-2" role="button">
+                <button class="btn btn-light text-info rounded-1 border-info" type="submit">Register</button>
+            </form>
+        </div>
         <!--Navigation End-->
     </header>
     <!--Carousel-->
